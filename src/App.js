@@ -34,8 +34,26 @@ class App extends Component {
         </div>
 
         <div className="how-we-do-it">
-          <div className="how-we-do-it-title-left" />
-          <div className="how-we-do-it-text-right" />
+          <div className="how-we-do-it-title-left">
+            How we do it
+          </div>
+          <div className="how-we-do-it-text-right">
+            <p>
+              Our teams work together—under the same roof, in the same room. We
+              build our creative centers in top college towns where we can
+              attract
+              top talent and offer an incredible lifestyle. We hire only the
+              best
+              and trust our teams to work autonomously. We are independent—our
+              only responsibility is to deliver extraordinary outcomes to our
+              clients.
+            </p>
+            <p>
+              The result is the highest team satisfaction in the industry,
+              independent analyst recognition, and an ever-growing list of
+              delighted clients who work with us again and again.
+            </p>
+          </div>
         </div>
 
         <div className="core-services">
