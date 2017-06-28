@@ -5,6 +5,10 @@ import introImage from "./Graphics/introImage.jpeg";
 import quoteImage from "./Graphics/quotelogo.png";
 import LinearProgress from "material-ui/LinearProgress";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import Apple from "./Graphics/Apple-logo-grey.png";
+import Google from "./Graphics/certified-1.png";
+import Xamarin from "./Graphics/xamagon.png";
+import Sap from "./Graphics/sap_partner.gif";
 
 let quotes = {
   1: [
@@ -234,9 +238,62 @@ class App extends Component {
 
           {/*Fifth Page*/}
           <div className="partner-certifications">
-            <div className="partner-certifications-header" />
-            <div className="partner-certifications-left" />
-            <div className="partner-certifications-right" />
+            <div className="partner-certifications-header">
+              Partner Certifications
+            </div>
+            <div className="parter-certifcations-header-body">
+              <p>
+                WillowTree is one of a select handful of agencies recognized and
+                certified by
+              </p>
+              <p>our partners at Apple, Google, and Microsoft.</p>
+            </div>
+            <div className="partner-certifications-logos">
+              <div className="partner-certifications-apple">
+                <div className="partner-certifications-apple-logo">
+                  <img src={Apple} style={appleLogo} />
+                  <div className="partner-certifications-apple-text">
+                    Apple Mobility Partner Program<p>(MPP)</p>
+                  </div>
+                </div>
+              </div>
+              <div className="partner-certifications-google">
+                <div className="partner-certifications-google-logo">
+                  <img src={Google} style={googleLogo} />
+                </div>
+                <div className="partner-certifications-google-text">
+                  Google Developer Certified <p>Agency</p>
+                  <p>
+                    <a href="https://developers.google.com/agency/directory">
+                      Learn
+                      more
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div className="partner-certifications-xamarin">
+                <div className="partner-certifications-xamarin-logo">
+                  <img src={Xamarin} style={xamarinLogo} />
+                </div>
+                <div className="partner-certifications-xamarin-text">
+                  Microsoft Xamarin Certified Premier <p>Consulting Partner</p>
+                  <p>
+                    <a href="https://www.xamarin.com/consulting-partners/find?q=%7B%22name%22%3A%22willowtree%22%2C%22location%22%3A%7B%22value%22%3A%22United%20States%22%2C%22coords%22%3A%5B40.675918%2C-105.492056%5D%2C%22isACountry%22%3Atrue%2C%22country%22%3A%22United%20States%22%7D%7D">
+                      Learn
+                      more
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div className="partner-certifications-sap">
+                <div className="partner-certifications-sap-logo">
+                  <img src={Sap} style={sapLogo} />
+                </div>
+                <div className="partner-certifications-sap-text">
+                  SAP Consulting Partner Program
+                </div>
+              </div>
+            </div>
           </div>
           <div className="select-recognition">
             <div className="select-recognition-title" />
@@ -283,6 +340,26 @@ const introImageStyles = {
 const quoteImageStyles = {
   width: 400,
   height: 400
+};
+
+const appleLogo = {
+  height: 323,
+  width: 454
+};
+
+const googleLogo = {
+  height: 200,
+  width: 164
+};
+
+const xamarinLogo = {
+  height: 320,
+  width: 320
+};
+
+const sapLogo = {
+  height: 115,
+  width: 192
 };
 
 export default App;
