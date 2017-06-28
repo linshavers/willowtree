@@ -248,3 +248,55 @@
   position: relative;
   z-index: 3;
 }
+
+.quote-bar {
+  padding: 80px;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+}
+
+.quote-ticker {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.quote-text {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.quote-text h1 {
+  color: #4C4B4B;
+  font-family: "Avenir";
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 50px;
+}
+
+.quote-text p {
+  color: #4C4B4B;
+  font-family: "Avenir";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 26px;
+}
+
+#quote-image {
+  position: relative;
+  width: 100%;
+}
+
+.quote-progress-bar {
+  margin-left: 10000px;
+  margin-right: 10000px;
+}
