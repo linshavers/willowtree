@@ -56,11 +56,11 @@
   vertical-align: top;
   padding: 20px;
   color: white;
-  font-family: 'set-font', helvetica, sans-serif;
+  font-family: "Avenir";
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: lighter;
   line-height: 26px;
 }
 
@@ -113,16 +113,16 @@
 
 #what-we-do-text-text {
   text-align: left;
-  margin-left: 185px;
+  margin-left: 190px;
   margin-right: 155px;
 }
 
 .what-we-do-text h2 {
-  font-family: 'set-font', helvetica, sans-serif;
+  font-family: "Avenir";
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: lighter;
   line-height: 26px;
 }
 
@@ -147,6 +147,21 @@
   font-weight: bold;
 }
 
+.how-we-do-it-title-left h1 {
+  font-family: TimesNewRoman,
+    'Times New Roman',
+    Times,
+    Baskerville,
+    Georgia,
+    serif;
+  font-size: 45px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 26px;
+  color: #4C4B4B;
+}
+
 .how-we-do-it-text-right {
   top: 50%;
   margin: 0 auto;
@@ -157,6 +172,16 @@
   text-align: left;
   color: #222;
   line-height: 30px;
+}
+
+.how-we-do-it-text-right p {
+  font-family: "Avenir";
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 26px;
+  color: #4C4B4B;
 }
 
 .core-services {
@@ -171,7 +196,7 @@
 
 .core-services p {
   color: gray;
-  font-family: 'set-font', helvetica, sans-serif;
+  font-family: "Avenir";
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -299,4 +324,47 @@
 .quote-progress-bar {
   margin-left: 10000px;
   margin-right: 10000px;
+}
+
+.select-recognition-content {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.select-recognition-content-top {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.select-recognition-content-bottom {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }

@@ -123,7 +123,7 @@ class App extends Component {
           {/*Second Page*/}
           <div className="how-we-do-it">
             <div className="how-we-do-it-title-left">
-              How we do it
+              <h1>How we do it</h1>
             </div>
             <div className="how-we-do-it-text-right">
               <p>
@@ -238,28 +238,50 @@ class App extends Component {
             <div className="partner-certifications-left" />
             <div className="partner-certifications-right" />
           </div>
+
+          {/*Sixth Page*/}
           <div className="select-recognition">
-            <div className="select-recognition-title" />
-            <div className="selet-recognition-content" />
+            <div className="select-recognition-title">
+              <h1>Select Recognition</h1>
+            </div>
+            <div className="select-recognition-content">
+              <div>
+                <div className="select-recognition-content-top">1</div>
+                <div className="select-recognition-content-top">2</div>
+                <div className="select-recognition-content-top">3</div>
+              </div>
+
+              <div className="select-recognition-content-bottom" />
+            </div>
           </div>
+
+          {/*Seventh Page*/}
           <div className="our-leadership">
             <div className="our-leaderhip-header" />
             <div className="our-leadership-content-grid" />
           </div>
+
+          {/*Eighth Page*/}
           <div className="our-offices">
             <div className="our-offices-header" />
             <div className="our-offices-image-scroll" />
           </div>
+
+          {/*Ninth Page*/}
           <div className="select-press-speaking">
             <div className="select-press-header" />
             <div className="select-press-list" />
             <div className="speaking-header" />
             <div className="speaking-list" />
           </div>
+
+          {/*Tenth Page*/}
           <div className="next-hire-say-hello">
             <div className="next-hire" />
             <div className="say-hello-form" />
           </div>
+
+          {/*Footer*/}
           <div className="footer">
             <div className="footer-left" />
             <div className="footer-right" />
