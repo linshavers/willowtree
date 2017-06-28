@@ -300,3 +300,92 @@
   margin-left: 10000px;
   margin-right: 10000px;
 }
+
+.partner-certifications-header {
+  padding-top: 20px;
+  font-style: italic;
+  font-size: 40px;
+  font-family: cursive;
+  color: #4C4B4B;
+}
+
+.parter-certifcations-header-body {
+  font-size: 16px;
+  font-family: Arial;
+  color: #4C4B4B;
+  font-weight: 100;
+}
+.partner-certifications-logos {
+  margin: 0 auto;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.partner-certifications-apple {
+  height: 280px;
+  width: 280px;
+  text-align: center;
+}
+
+.partner-certifications-apple-logo {
+  position: relative;
+  right: 100px;
+  bottom: 100px;
+}
+
+.partner-certifications-apple-text {
+  position: relative;
+  bottom: 25px;
+  left: 75px;
+}
+
+.partner-certifications-google {
+  height: 280px;
+  width: 280px;
+}
+
+.partner-certifications-google-logo {
+  position: relative;
+  bottom: 30px;
+}
+
+.partner-certifications-google-text {
+  position: relative;
+  bottom: 5px;
+}
+
+.partner-certifications-xamarin {
+  height: 280px;
+  width: 280px;
+}
+
+.partner-certifications-xamarin-text {
+  position: relative;
+  bottom: 125px;
+}
+
+.partner-certifications-xamarin-logo {
+  position: relative;
+  bottom: 80px;
+  right: 20px;
+}
+
+.partner-certifications-sap {
+  height: 280px;
+  width: 280px;
+}
+
+.partner-certifications-sap-logo {
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+}
+
+.partner-certifications-sap-text {
+  position: relative;
+  top: 80px;
+}
