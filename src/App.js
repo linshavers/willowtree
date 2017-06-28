@@ -72,8 +72,59 @@ class App extends Component {
         </div>
 
         <div className="core-services">
-          <div className="core-services-links-left" />
-          <div className="core-services-links-right" />
+
+          <div className="core-services-links-left">
+            <div id="core-services-left-text">
+              <p> CORE SERVICES</p>
+              <h1>
+                <a
+                  href={
+                    "https://willowtreeapps.com/services/mobile-product-strategy"
+                  }
+                >
+                  Mobile Project Strategy
+                </a>
+              </h1>
+              <h1>
+                <a
+                  href={"https://willowtreeapps.com/services/mobile-engagement"}
+                >
+                  Mobile Engagement
+                </a>
+              </h1>
+              <h1>
+                <a href={"https://willowtreeapps.com/services/web-development"}>
+                  Web Development
+                </a>
+              </h1>
+            </div>
+          </div>
+
+          <div className="core-services-links-right">
+            <div id="core-services-right-text">
+              <h1>
+                <a href={"https://willowtreeapps.com/services/product-design"}>
+                  Product Design
+                </a>
+              </h1>
+              <h1>
+                <a
+                  href={
+                    "https://willowtreeapps.com/services/native-app-development"
+                  }
+                >
+                  Native App Development
+                </a>
+              </h1>
+              <h1>
+                <a
+                  href={"https://willowtreeapps.com/services/rapid-prototyping"}
+                >
+                  Rapid Prototyping
+                </a>
+              </h1>
+            </div>
+          </div>
         </div>
 
         <div className="quote-bar">
