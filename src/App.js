@@ -1,34 +1,49 @@
 import React, { Component } from "react";
 import "./App.css";
 import logo from "./Graphics/logo-white.png";
-import introImage from "./Graphics/introimage.png";
+import introImage from "./Graphics/introImage.jpeg";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
         <div className="intro">
+
           {/*Intro Left*/}
-          <div className="intro-left-container">
+          <div className="intro-left">
             <div className="image-left">
               <img src={introImage} style={introImageStyles} />
             </div>
             <div className="logo">
-              <img src={logo} style={introLogoStyles} />
+              <a href={"https://willowtreeapps.com/"}>
+                <img src={logo} style={introLogoStyles} />
+              </a>
             </div>
+          </div>
 
-            {/*Intro Right*/}
-            <div className="intro-right-container">
-              <div className="nav-bar">
-                <h1>Work</h1>
-                <h1>About</h1>
-                <h1>Careers</h1>
-                <h1>Ideas</h1>
-                <h1>Contact Us</h1>
-
-              </div>
-              <div className="what-we-do-text" />
+          {/*Intro Right*/}
+          <div className="intro-right">
+            <div className="nav-bar">
+              <p><a href={"https://willowtreeapps.com/work"}>Work</a></p>
+              <p><t href={"http://localhost:3000/"}>About</t></p>
+              <p>
+                <a href={"https://willowtreeapps.com/careers"}>Careers</a>
+              </p>
+              <p><a href={"https://willowtreeapps.com/ideas"}>Ideas</a></p>
+              <p>
+                <a href={"https://willowtreeapps.com/contact"}>Contact Us</a>
+              </p>
+            </div>
+            <div className="what-we-do-text">
+              <h1>What we do</h1>
+              <h2 id="what-we-do-text-text">
+                We build apps, responsive sites, bots—any digital product that
+                lives on a screen—for the world’s leading companies. Our elite
+                teams challenge themselves to build extraordinary experiences
+                by
+                bridging the latest strategy and design thinking with
+                enterprise-grade software development.
+              </h2>
             </div>
           </div>
         </div>
@@ -107,8 +122,8 @@ const introLogoStyles = {
 };
 
 const introImageStyles = {
-  width: 700,
-  height: 675
+  width: 720,
+  height: 750
 };
 
 export default App;
